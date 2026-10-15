@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftData
 
+@available(iOS 17.0, macOS 14.0, *)
 @main
 struct PulseGuardAIApp: App {
     let container: ModelContainer

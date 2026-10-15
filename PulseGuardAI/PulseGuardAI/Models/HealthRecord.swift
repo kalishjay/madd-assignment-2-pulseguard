@@ -10,6 +10,7 @@ import SwiftData
 
 /// Represents a persistent daily biometric and recovery record.
 /// Utilizes SwiftData for modern on-device persistence.
+@available(iOS 17.0, macOS 14.0, *)
 @Model
 final class HealthRecord {
     @Attribute(.unique) var id: UUID

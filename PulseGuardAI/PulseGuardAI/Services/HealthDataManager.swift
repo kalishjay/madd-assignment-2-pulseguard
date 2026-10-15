@@ -8,7 +8,7 @@
 import Foundation
 import SwiftData
 
-/// Manages SwiftData container lifecycle and provides sample seed data for previews/testing.
+@available(iOS 17.0, macOS 14.0, *)
 @MainActor
 final class HealthDataManager {
     static let shared = HealthDataManager()

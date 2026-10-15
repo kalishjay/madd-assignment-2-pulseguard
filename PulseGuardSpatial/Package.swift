@@ -4,17 +4,18 @@ import PackageDescription
 let package = Package(
     name: "PulseGuardSpatial",
     platforms: [
-        .visionOS(.v1)
+        .visionOS(.v1),
+        .macOS(.v14)
     ],
     products: [
         .library(
-            name: "PulseGuardSpatialCore",
-            targets: ["PulseGuardSpatialCore"]
+            name: "PulseGuardSpatial",
+            targets: ["PulseGuardSpatial"]
         ),
     ],
     targets: [
         .target(
-            name: "PulseGuardSpatialCore",
+            name: "PulseGuardSpatial",
             path: "PulseGuardSpatial"
         ),
     ]

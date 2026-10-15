@@ -6,22 +6,23 @@ import PackageDescription
 let package = Package(
     name: "PulseGuardAI",
     platforms: [
-        .iOS(.v17)
+        .iOS(.v17),
+        .macOS(.v14)
     ],
     products: [
         .library(
-            name: "PulseGuardAICore",
-            targets: ["PulseGuardAICore"]
+            name: "PulseGuardAI",
+            targets: ["PulseGuardAI"]
         ),
     ],
     targets: [
         .target(
-            name: "PulseGuardAICore",
+            name: "PulseGuardAI",
             path: "PulseGuardAI"
         ),
         .testTarget(
             name: "PulseGuardAITests",
-            dependencies: ["PulseGuardAICore"],
+            dependencies: ["PulseGuardAI"],
             path: "PulseGuardAITests"
         ),
     ]
