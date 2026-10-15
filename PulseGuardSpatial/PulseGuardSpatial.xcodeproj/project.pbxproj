@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BB0000022C1B8B0000000002 /* PulseGuardSpatial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseGuardSpatial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2000022C1B8B0000000002 /* PulseGuardSpatial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseGuardSpatial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0200012C1B8B0000000001 /* PulseGuardSpatialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseGuardSpatialApp.swift; sourceTree = "<group>"; };
 		BB0200022C1B8B0000000002 /* SpatialDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialDashboardView.swift; sourceTree = "<group>"; };
 		BB0200032C1B8B0000000003 /* VolumetricVitalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumetricVitalsView.swift; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		BB0500042C1B8B0000000004 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB0000022C1B8B0000000002 /* PulseGuardSpatial.app */,
+				BB2000022C1B8B0000000002 /* PulseGuardSpatial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 			);
 			name = PulseGuardSpatial;
 			productName = PulseGuardSpatial;
-			productReference = BB0000022C1B8B0000000002 /* PulseGuardSpatial.app */;
+			productReference = BB2000022C1B8B0000000002 /* PulseGuardSpatial.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

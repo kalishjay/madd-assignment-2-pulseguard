@@ -40,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA0000022C1B8A0000000002 /* PulseGuardAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseGuardAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA0000032C1B8A0000000003 /* PulseGuardAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseGuardAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA0000042C1B8A0000000004 /* PulseGuardAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseGuardAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2000022C1B8A0000000002 /* PulseGuardAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseGuardAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2000032C1B8A0000000003 /* PulseGuardAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseGuardAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2000042C1B8A0000000004 /* PulseGuardAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseGuardAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0200012C1B8A0000000001 /* PulseGuardAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseGuardAIApp.swift; sourceTree = "<group>"; };
 		AA0200022C1B8A0000000002 /* HealthRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRecord.swift; sourceTree = "<group>"; };
 		AA0200032C1B8A0000000003 /* VitalsMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalsMetric.swift; sourceTree = "<group>"; };
@@ -202,9 +202,9 @@
 		AA0500042C1B8A0000000004 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA0000022C1B8A0000000002 /* PulseGuardAI.app */,
-				AA0000032C1B8A0000000003 /* PulseGuardAITests.xctest */,
-				AA0000042C1B8A0000000004 /* PulseGuardAIUITests.xctest */,
+				AA2000022C1B8A0000000002 /* PulseGuardAI.app */,
+				AA2000032C1B8A0000000003 /* PulseGuardAITests.xctest */,
+				AA2000042C1B8A0000000004 /* PulseGuardAIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,7 +226,7 @@
 			);
 			name = PulseGuardAI;
 			productName = PulseGuardAI;
-			productReference = AA0000022C1B8A0000000002 /* PulseGuardAI.app */;
+			productReference = AA2000022C1B8A0000000002 /* PulseGuardAI.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AA0000032C1B8A0000000003 /* PulseGuardAITests */ = {
@@ -243,7 +243,7 @@
 			);
 			name = PulseGuardAITests;
 			productName = PulseGuardAITests;
-			productReference = AA0000032C1B8A0000000003 /* PulseGuardAITests.xctest */;
+			productReference = AA2000032C1B8A0000000003 /* PulseGuardAITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		AA0000042C1B8A0000000004 /* PulseGuardAIUITests */ = {
@@ -260,7 +260,7 @@
 			);
 			name = PulseGuardAIUITests;
 			productName = PulseGuardAIUITests;
-			productReference = AA0000042C1B8A0000000004 /* PulseGuardAIUITests.xctest */;
+			productReference = AA2000042C1B8A0000000004 /* PulseGuardAIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
