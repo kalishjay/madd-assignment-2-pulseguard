@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0100012C1B8B0000000001 /* PulseGuardSpatialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200012C1B8B0000000001 /* PulseGuardSpatialApp.swift */; };
+		BB0100022C1B8B0000000002 /* SpatialDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200022C1B8B0000000002 /* SpatialDashboardView.swift */; };
+		BB0100032C1B8B0000000003 /* VolumetricVitalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200032C1B8B0000000003 /* VolumetricVitalsView.swift */; };
+		BB0100042C1B8B0000000004 /* ImmersiveRelaxationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200042C1B8B0000000004 /* ImmersiveRelaxationView.swift */; };
+		BB0100052C1B8B0000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0200052C1B8B0000000005 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB0000022C1B8B0000000002 /* PulseGuardSpatial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseGuardSpatial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0200012C1B8B0000000001 /* PulseGuardSpatialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseGuardSpatialApp.swift; sourceTree = "<group>"; };
+		BB0200022C1B8B0000000002 /* SpatialDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialDashboardView.swift; sourceTree = "<group>"; };
+		BB0200032C1B8B0000000003 /* VolumetricVitalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumetricVitalsView.swift; sourceTree = "<group>"; };
+		BB0200042C1B8B0000000004 /* ImmersiveRelaxationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveRelaxationView.swift; sourceTree = "<group>"; };
+		BB0200052C1B8B0000000005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB0200062C1B8B0000000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB0400012C1B8B0000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB0500002C1B8B0000000000 = {
+			isa = PBXGroup;
+			children = (
+				BB0500012C1B8B0000000001 /* PulseGuardSpatial */,
+				BB0500042C1B8B0000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB0500012C1B8B0000000001 /* PulseGuardSpatial */ = {
+			isa = PBXGroup;
+			children = (
+				BB0500052C1B8B0000000005 /* App */,
+				BB0500062C1B8B0000000006 /* Views */,
+				BB0500072C1B8B0000000007 /* Resources */,
+			);
+			path = PulseGuardSpatial;
+			sourceTree = "<group>";
+		};
+		BB0500052C1B8B0000000005 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BB0200012C1B8B0000000001 /* PulseGuardSpatialApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BB0500062C1B8B0000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB0200022C1B8B0000000002 /* SpatialDashboardView.swift */,
+				BB0200032C1B8B0000000003 /* VolumetricVitalsView.swift */,
+				BB0200042C1B8B0000000004 /* ImmersiveRelaxationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB0500072C1B8B0000000007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB0200052C1B8B0000000005 /* Assets.xcassets */,
+				BB0200062C1B8B0000000006 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB0500042C1B8B0000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000022C1B8B0000000002 /* PulseGuardSpatial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB0000022C1B8B0000000002 /* PulseGuardSpatial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0600012C1B8B0000000001 /* Build configuration list for PBXNativeTarget "PulseGuardSpatial" */;
+			buildPhases = (
+				BB0700012C1B8B0000000001 /* Sources */,
+				BB0400012C1B8B0000000001 /* Frameworks */,
+				BB0800012C1B8B0000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulseGuardSpatial;
+			productName = PulseGuardSpatial;
+			productReference = BB0000022C1B8B0000000002 /* PulseGuardSpatial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB0000012C1B8B0000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BB0000022C1B8B0000000002 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BB0600002C1B8B0000000000 /* Build configuration list for PBXProject "PulseGuardSpatial" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB0500002C1B8B0000000000;
+			productRefGroup = BB0500042C1B8B0000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB0000022C1B8B0000000002 /* PulseGuardSpatial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB0800012C1B8B0000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0100052C1B8B0000000005 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB0700012C1B8B0000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0100012C1B8B0000000001 /* PulseGuardSpatialApp.swift in Sources */,
+				BB0100022C1B8B0000000002 /* SpatialDashboardView.swift in Sources */,
+				BB0100032C1B8B0000000003 /* VolumetricVitalsView.swift in Sources */,
+				BB0100042C1B8B0000000004 /* ImmersiveRelaxationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB1000012C1B8B0000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		BB1000022C1B8B0000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		BB1000032C1B8B0000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PulseGuardSpatial/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sliit.PulseGuardSpatial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "7";
+			};
+			name = Debug;
+		};
+		BB1000042C1B8B0000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PulseGuardSpatial/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sliit.PulseGuardSpatial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB0600002C1B8B0000000000 /* Build configuration list for PBXProject "PulseGuardSpatial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1000012C1B8B0000000001 /* Debug */,
+				BB1000022C1B8B0000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0600012C1B8B0000000001 /* Build configuration list for PBXNativeTarget "PulseGuardSpatial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1000032C1B8B0000000003 /* Debug */,
+				BB1000042C1B8B0000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = BB0000012C1B8B0000000001 /* Project object */;
+}
